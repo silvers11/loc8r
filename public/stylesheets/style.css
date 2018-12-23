@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #c7cc64;
 }
  
+.navbar-toggler {
+  outline: none
+}
+
 .navbar-brand {
   font-family: 'Lobster', cursive;
   color: #fff;
@@ -45,12 +49,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
 }
  
- 
 .badge-default, .btn-primary {
   background-color: #057a13;
   border-color: #1ead1f;
 }
  
+.badge-warning {
+  background-color: #1ead1f;
+  color: #fff;
+}
 h4 a, h4 a:hover {
   color: #fff;
 }
@@ -58,7 +65,7 @@ h4 a, h4 a:hover {
 h4 small {
   font-size: 60%;
   line-height: 200%;
-  color: #aaa;
+  color: #db7b45;
 }
  
 h1 small {
