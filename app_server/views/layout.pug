@@ -11,7 +11,11 @@ html
       .container
       a.navbar-brand(href='/') Loc8r
       button.navbar-toggler.navbar-toggler-left(type='button',data-toggle='collapse',data-target='#navbarMain')
-        span.navbar-toggler-icon
+       
+        span.navbar-toggler-icon(onclick='navButton(this)')
+          .bar1
+          .bar2
+          .bar3
       #navbarMain.navbar-collapse.collapse
         ul.navbar-nav.mr-auto
           li.nav-item
@@ -25,4 +29,5 @@ html
       script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
       script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js')
       script(src='/javascripts/bootstrap.min.js')
-      
+      script.
+        function navButton(x){x.classList.toggle("change")}
